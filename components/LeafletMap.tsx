@@ -190,7 +190,6 @@ export default function LeafletMap({
         zoom={13}
         style={{ height: '100%', width: '100%', backgroundColor: '#020617' }}
         attributionControl={false}
-        tap={true}
       >
         <MapResizeController center={center} />
         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
